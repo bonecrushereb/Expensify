@@ -1,4 +1,4 @@
-export const setTextFilter = (text = '') => ({
+export const setTextFilter = (text ='') => ({
   type: 'SET_TEXT_FILTER',
   text
 });
@@ -8,11 +8,11 @@ export const sortByDate = () => ({
 });
 
 export const sortByAmount = () => ({
-  type: 'SORT_BY_AMOUNT'
+  type: 'SORT_BY_Amount'
 });
 
 export const setStartDate = (startDate) => ({
-  type: 'SET_START_DATE',
+  type: 'SET_STATRT_DATE',
   startDate
 });
 
