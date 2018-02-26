@@ -55,6 +55,7 @@ ShallowWrapper {
         <withStyles(DateRangePicker)
           anchorDirection="left"
           block={false}
+          calendarInfoPosition="bottom"
           customArrowIcon={null}
           customCloseIcon={null}
           customInputIcon={null}
@@ -218,6 +219,7 @@ ShallowWrapper {
         "props": Object {
           "anchorDirection": "left",
           "block": false,
+          "calendarInfoPosition": "bottom",
           "customArrowIcon": null,
           "customCloseIcon": null,
           "customInputIcon": null,
@@ -343,6 +345,7 @@ ShallowWrapper {
           <withStyles(DateRangePicker)
             anchorDirection="left"
             block={false}
+            calendarInfoPosition="bottom"
             customArrowIcon={null}
             customCloseIcon={null}
             customInputIcon={null}
@@ -506,6 +509,7 @@ ShallowWrapper {
           "props": Object {
             "anchorDirection": "left",
             "block": false,
+            "calendarInfoPosition": "bottom",
             "customArrowIcon": null,
             "customCloseIcon": null,
             "customInputIcon": null,
@@ -667,6 +671,7 @@ ShallowWrapper {
         <withStyles(DateRangePicker)
           anchorDirection="left"
           block={false}
+          calendarInfoPosition="bottom"
           customArrowIcon={null}
           customCloseIcon={null}
           customInputIcon={null}
@@ -830,6 +835,7 @@ ShallowWrapper {
         "props": Object {
           "anchorDirection": "left",
           "block": false,
+          "calendarInfoPosition": "bottom",
           "customArrowIcon": null,
           "customCloseIcon": null,
           "customInputIcon": null,
@@ -955,6 +961,7 @@ ShallowWrapper {
           <withStyles(DateRangePicker)
             anchorDirection="left"
             block={false}
+            calendarInfoPosition="bottom"
             customArrowIcon={null}
             customCloseIcon={null}
             customInputIcon={null}
@@ -1118,6 +1125,7 @@ ShallowWrapper {
           "props": Object {
             "anchorDirection": "left",
             "block": false,
+            "calendarInfoPosition": "bottom",
             "customArrowIcon": null,
             "customCloseIcon": null,
             "customInputIcon": null,
