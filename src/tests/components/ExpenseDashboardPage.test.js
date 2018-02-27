@@ -5,5 +5,5 @@ import ExpenseDashboardPage from '../../components/ExpenseDashboardPage';
 
 test('should render ExpenseDashboardPage correctly', () => {
   const wrapper = shallow(<ExpenseDashboardPage />);
-  expect(toJSON(wrapper)).toMatchSnapshot();
+  expect(wrapper).toMatchSnapshot();
 });
