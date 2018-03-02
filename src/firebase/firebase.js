@@ -12,3 +12,24 @@ const config = {
  firebase.initializeApp(config);
 
 const database = firebase.database();
+
+database.ref('expenses').push({
+  description: 'Rent',
+  note: '',
+  amount: 109500,
+  createdAt: 3039834094834
+});
+
+database.ref('expenses').push({
+  description: 'Gas Bill',
+  note: '',
+  amount: 16000,
+  createdAt: 3039834094834
+});
+
+database.ref('expenses').push({
+  description: 'Foot',
+  note: '',
+  amount: 15000,
+  createdAt: 3039834094834
+});
