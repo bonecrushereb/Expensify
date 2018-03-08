@@ -17,7 +17,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <button>
+      "children": <button
+        onClick={undefined}
+      >
         Login
       </button>,
     },
@@ -28,6 +30,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Login",
+        "onClick": undefined,
       },
       "ref": null,
       "rendered": "Login",
@@ -41,7 +44,9 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <button>
+        "children": <button
+          onClick={undefined}
+        >
           Login
         </button>,
       },
@@ -52,6 +57,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Login",
+          "onClick": undefined,
         },
         "ref": null,
         "rendered": "Login",
