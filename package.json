@@ -6,11 +6,12 @@
   "author": "bonecrushereb <bonecrushereb@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
-    "start:dev": "webpack-dev-server",
-    "test": "cross-env NODE_ENV=TEST jest --config=jest.config.json",
-    "start": "node server"
+    "dev-server": "webpack-dev-server",
+    "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
+    "start": "node server.js",
+    "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
