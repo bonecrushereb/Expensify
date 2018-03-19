@@ -9,7 +9,8 @@
     "build": "webpack",
     "build:prod": "webpack -p --env production",
     "start:dev": "webpack-dev-server",
-    "test": "cross-env NODE_ENV=TEST jest --config=jest.config.json"
+    "test": "cross-env NODE_ENV=TEST jest --config=jest.config.json",
+    "start": "node server"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
