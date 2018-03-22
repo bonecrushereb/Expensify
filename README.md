@@ -56,3 +56,8 @@ Login with google creditials while saving data to firebase
 once cloning or forking this application all that needs to be run is `yarn/node dev-server`
 
 testing can be run with `yarn/node test`
+
+#### Features Coming
+
+* ability to self-delete expenses that have been paid if selected
+* reminder to pay after a certain amount of time the user wantes i.e. 1-10 days
