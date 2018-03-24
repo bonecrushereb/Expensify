@@ -1,6 +1,6 @@
 language: node_js
 before-install:
-  - export TZ: Canada/Pacific
+- export TZ=Australia/Canberra
 node_js:
   - "6.10.3"
 cache:
