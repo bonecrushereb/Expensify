@@ -1,6 +1,6 @@
 language: node_js
 before-install:
-  - date
+  - export TZ: Pacific
 node_js:
   - "6.10.3"
 cache:
