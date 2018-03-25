@@ -1,6 +1,4 @@
 language: node_js
-before-install:
-- date
 node_js:
   - "6.10.3"
 cache:
