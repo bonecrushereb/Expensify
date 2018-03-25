@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bonecrushereb/Expensify.svg?branch=master)](https://travis-ci.org/bonecrushereb/Expensify)
+
 # Expensify
 <https://expensifybybennolan.herokuapp.com>
 
@@ -61,3 +63,8 @@ testing can be run with `yarn/node test`
 
 * ability to self-delete expenses that have been paid if selected
 * reminder to pay after a certain amount of time the user wantes i.e. 1-10 days
+
+##### Future Updates
+
+* Able to self delete after expenses were paid via a radio button
+* Set reminders either by Email or Text via users preference
