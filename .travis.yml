@@ -1,5 +1,5 @@
 language: node_js
-before-install:
+before-script:
 - export TZ=America/Los_Angeles
 node_js:
   - "6.10.3"
