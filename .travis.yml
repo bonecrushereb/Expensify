@@ -1,6 +1,6 @@
 language: node_js
 before-install:
-- "export TZ=America/Los_Angeles"
+- date
 node_js:
   - "6.10.3"
 cache:
